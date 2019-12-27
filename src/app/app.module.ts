@@ -7,14 +7,18 @@ import { AppRoutingModule } from './app.routing';
 
 import { ProductListComponent } from './pages/product-list/product-list.component';
 import { PageNotFoundComponent } from './pages/not-found/not-found.component';
+import { RoductAlertsComponent } from './pages/roduct-alerts/roduct-alerts.component';
 
+import { LoginComponent } from './pages/login/login.component';
 
 @NgModule({
    //可声明对象表,那些属于本 NgModule 的组件、指令、管道。
    declarations: [
       AppComponent,
       ProductListComponent,
-      PageNotFoundComponent
+      PageNotFoundComponent,
+      RoductAlertsComponent,
+      LoginComponent
    ],
    //那些能在其它模块的组件模板中使用的可声明对象的子集。
    exports: [],
